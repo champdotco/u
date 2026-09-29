@@ -18,7 +18,6 @@ echo '<div class="m">OK: <a href="/'.$n.'" style="color:#0f0">'.$n.'</a></div>';
 }
 ?>
 <form method='POST' enctype='multipart/form-data'>
-<input type='hidden' name='k' value='<?=$sig?>'>
 <input type='file' name='f'><br><br>
 <input type='submit' value='UPLOAD'>
 </form></div></body></html>
